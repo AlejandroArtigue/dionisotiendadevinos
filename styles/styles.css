@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito', sans-serif;
+
+}
+header {
+    background-color: #9566cfe6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: auto;
+}
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100px;
+   
+}
+
+.menu {  
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    grid-gap:20px;
+    align-items: center;
+   
+    
+
+}
+.inicio, .nacionales , .importados , .nosotros , .contacto{
+    display: inline-block;
+    margin-right: 10px;
+    margin-left: 10px;
+
+
+}
+.mainindex { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    
+}
+.columna a {
+    color: white;
+    text-decoration: none;
+}
+.lonuestro {
+    color: #000000db;
+    display: flex;
+    justify-content: center;
+   }
+
+.vinosdioniso {
+    color: rgb(0, 0, 0);
+    margin: 50px;
+    font-style: normal;
+    font-family: 'Bebas Neue', cursive;
+    
+}
+
+.destacados {
+    width: 500px;
+    
+}
+
+.presentacion {
+    
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url("../asset/dia-del-vinojpg.webp");
+    background-blend-mode: lighten;
+}
+body  {
+    font-size: 18px;
+    background-image:url(../asset/2e93c700-d7fd-4ed4-8736-190a3dfbd4a6.37c7a9cb7d04028d0212ddf1fd22b1a8.jpeg);
+    background-size: cover ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+
+
+.historia {
+    margin: 50px;
+     color: #000000;
+    font-style: normal;
+    font-family: 'Bebas Neue', cursive;;
+}
+.wpp {
+        position: fixed;
+        bottom: 10px;
+        right: 10px;
+        width: 80px;
+}
+
+/* FOOTER */
+.newsletter{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    background-color: #9566cfe6;
+    padding-inline: 70px;
+    padding-block: 20px;
+   
+}
+
+
+.telefono { 
+    min-width: 48px;
+    padding: 0;
+}
+.email {
+    font-weight: 900;
+   min-width: 48px;
+     padding: 0;
+
+}
+.ubicacion {
+    min-width: 48px;
+    padding: 0;
+}
+
+
+/* VENTANAS DE HTML  */
+.soloimportados {
+    text-decoration: underline;
+    color: #640067db;
+    display: flex;
+    justify-content: center;
+    
+}
+.solonacionales {
+    color: #640067db;
+    display: flex;
+    justify-content: center;
+   
+
+}
+.solonosotros {
+    color: #640067db;
+    display: flex;
+    justify-content: center;
+    
+
+}
+.fondonosotros {
+    background-image: url(../asset/fondo\ nosotros.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.maincontacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+
+}
+.imagencontacto {
+    background-image: url(../asset/imgcontacto.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.solocontacto {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+.contactanos {
+    display: flex;
+    justify-content: center;
+    
+}
+.colorletracontacto{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 60px;
+  
+}
+
+
+/* Cartas de imagenes de vinos importados y nacionales */
+
+.tarjetita {
+    background-color: #9566cf;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1;
+    
+   
+
+}
+.tarjetitas {
+    margin-top: 40px;
+    padding: 10 20px;
+    
+}
+.tarjetitascontenedor {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 50px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+.tarjetita__imagen {
+    max-width: 100%;
+}
+.informacion {
+    padding: 0px 20px 20px 20px;
+}
+.botellas__boton {
+    display: flex;
+    justify-content: center;
+    background-color: #959494;
+   border: none;
+   padding: 15px;
+   border-radius: 10px;
+   translate: center;
+
+}
+
+
+/* Nosotros */
+
+.historianosotros {
+    margin: 50px;
+    color: #000000;    
+    font-style: normal;
+    font-family: 'Bebas Neue', cursive;
+    width: 90%;
+    font-weight: 900px;
+    
+
+} 
+.tarjetitanosotros {
+    background-color: #beb5c8;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+    flex: 1.5;
+
+}
+   
+
+
+ @media screen and (max-width: 487px)  
+     {
+
+    .tarjetitascontenedor {
+        grid-template-columns: 1fr;
+       }
+       .body {
+        display: none;
+       }
+      
+        .columna   {
+            flex-direction: column;
+            align-items: center;
+        } 
+    
+    } 
+
+
+   
+
+ 
+    
