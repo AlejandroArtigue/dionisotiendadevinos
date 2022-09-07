@@ -286,8 +286,27 @@ body  {
     
     } 
 
+/* Transformaciones y animaciones */
 
    
 
- 
+ .tarjetita:hover {
+    transition: all 1s;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    transform: scale(1.1)translateY(-60px);
+ }
     
+
+ .logo {
+    animation: imagenlogo 2s;
+    animation-name: imagenlogo;
+    animation-duration: 2s;
+    animation-direction: alternate-reverse;
+ }
+@keyframes imagenlogo {
+    100% {
+        width: 15%;
+    }
+}
+
