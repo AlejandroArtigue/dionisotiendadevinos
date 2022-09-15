@@ -27,6 +27,9 @@
    
 } */
 
+.navbar {
+    background-color: #9566cf;
+}
 .menu {  
     display: flex;
     list-style-type: none;
@@ -50,6 +53,7 @@
     justify-content: center;
     align-items: center;
     padding: 40px;
+    padding-bottom: 0;
     
 }
 .columna a {
@@ -115,8 +119,9 @@ body  {
     align-items: center;
     list-style: none;
     background-color: #9566cfe6;
-    padding-inline: 100px;
-    padding-block: 20px; 
+    
+    padding: 40px;
+    padding-bottom: 0;
    
 }
 
@@ -128,8 +133,9 @@ body  {
     align-items: center;
     list-style: none;
     background-color: #9566cfe6;
+    
     padding-inline: 1000px;
-    padding-block: 10px; 
+    padding-block: 10px;  
 }
 
 .telefono { 
@@ -212,7 +218,7 @@ body  {
 }
 
 
-/* Cartas de imagenes de vinos importados y nacionales */
+/* Cartas de imagenes de vinos importados y nacionales
 
 .tarjetita {
     background-color: #9566cf;
@@ -255,7 +261,7 @@ body  {
    border-radius: 10px;
    translate: center;
 
-}
+} */
 
 
 /* Nosotros */
@@ -270,7 +276,7 @@ body  {
     
 
 } 
-.tarjetitanosotros {
+/* .tarjetitanosotros {
     background-color: #beb5c8;
     border-radius: 10px;
     overflow: hidden;
@@ -280,7 +286,7 @@ body  {
     gap: 20px;
     flex: 1.5;
 
-}
+} */
    
 
 
@@ -305,7 +311,7 @@ body  {
 
    
 
- .tarjetita:hover {
+ .cold-md-4:hover {
     transition: all 1s;
     width: 100%;
     color: rgb(255, 255, 255);
@@ -313,7 +319,7 @@ body  {
  }
     
 
-  /* .logo {
+   .logo {
     animation: imagenlogo 2s;
     animation-name: imagenlogo;
     animation-duration: 2s;
@@ -323,5 +329,5 @@ body  {
     100% {
         width: 15%;
     }
-}  */
+}  
 
