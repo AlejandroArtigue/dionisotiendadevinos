@@ -1,34 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
 
 
-.navbar {
+ .navbar {
     background-color: #9566cf;
 }
-.menu {  
+.menu {
     display: flex;
     list-style-type: none;
     gap: 20px;
     grid-gap:20px;
     align-items: center;
-   
-    
 
-}
-.inicio, .nacionales , .importados , .nosotros , .contacto{
-    display: inline-block;
-    margin-right: 10px;
-    margin-left: 10px;
 
 
 }
-.mainindex { 
+.mainindex {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 40px;
     padding-bottom: 0;
-    
+
 }
 .columna a {
     color: white;
@@ -45,16 +38,16 @@
     margin: 50px;
     font-style: normal;
     font-family: 'Bebas Neue', cursive;
-    
+
 }
 
 .destacados {
     width: 500px;
-    
+
 }
 
 .presentacion {
-    
+
     width: 100%;
     background-repeat: no-repeat;
     background-image: url("../asset/dia-del-vinojpg.webp");
@@ -93,10 +86,10 @@ body  {
     align-items: center;
     list-style: none;
     background-color: #9566cfe6;
-    
+
     padding: 40px;
     padding-bottom: 0;
-   
+
 }
 
 .footerinicio {
@@ -107,12 +100,12 @@ body  {
     align-items: center;
     list-style: none;
     background-color: #9566cfe6;
-    
+
     padding-inline: 1000px;
-    padding-block: 10px;  
+    padding-block: 10px;
 }
 
-.telefono { 
+.telefono {
     min-width: 48px;
     padding: 0;
 }
@@ -134,20 +127,20 @@ body  {
     color: #640067db;
     display: flex;
     justify-content: center;
-    
+
 }
 .solonacionales {
     color: #640067db;
     display: flex;
     justify-content: center;
-   
+
 
 }
 .solonosotros {
     color: #640067db;
     display: flex;
     justify-content: center;
-    
+
 
 }
 .fondonosotros {
@@ -180,7 +173,7 @@ body  {
 .contactanos {
     display: flex;
     justify-content: center;
-    
+
 }
 .colorletracontacto{
     color: #ffffff;
@@ -188,7 +181,7 @@ body  {
     flex-direction: column;
     justify-content: center;
     padding: 60px;
-  
+
 }
 
 
@@ -199,19 +192,19 @@ body  {
 
 .historianosotros {
     margin: 50px;
-    color: #000000;    
+    color: #000000;
     font-style: normal;
     font-family: 'Bebas Neue', cursive;
     width: 90%;
     font-weight: 900px;
-    
-
-} 
-
-   
 
 
- @media screen and (max-width: 487px)  
+}
+
+
+
+
+ @media screen and (max-width: 487px)
      {
 
     .tarjetitascontenedor {
@@ -220,17 +213,17 @@ body  {
        .body {
         display: none;
        }
-      
+
         .columna   {
             flex-direction: column;
             align-items: center;
-        } 
-    
-    } 
+        }
+
+    }
 
 /* Transformaciones y animaciones */
 
-   
+
 
  .cold-md-4:hover {
     transition: all 1s;
@@ -238,17 +231,17 @@ body  {
     color: rgb(255, 255, 255);
     transform: scale(1.1)translateY(-60px);
  }
-    
+
 
    .logo {
     animation: imagenlogo 2s;
     animation-name: imagenlogo;
     animation-duration: 2s;
     animation-direction: alternate-reverse;
- } 
+ }
  @keyframes imagenlogo {
     100% {
         width: 15%;
     }
-}  
+}
 

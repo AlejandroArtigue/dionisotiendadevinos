@@ -7,11 +7,33 @@ header {
     max-width: 1400px;
     margin: auto;
 
-    .logo {
+         .logo {
         // display: flex;
         // flex-direction: row;
         // justify-content: flex-start;
         width: 100px;
        
+         }
+        .navbar {
+        display: flex;
+        align-items: center;
+        }
+         .menu { 
+        display: flex;
+        list-style: none;
+        gap: 10px;
+        grid-gap:10px;
+         }
+         .nav__item {
+             a{
+             background-color: white;
+             border: 5px solid white;
+             color: $maincolor;
+             text-decoration: none;
+             padding: 1rem;
+             }
+        
+        
+        }
     }
-}
+

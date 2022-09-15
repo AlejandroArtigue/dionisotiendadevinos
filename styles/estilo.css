@@ -25,4 +25,21 @@ header {
 }
 header .logo {
   width: 100px;
+}
+header .navbar {
+  display: flex;
+  align-items: center;
+}
+header .menu {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  grid-gap: 10px;
+}
+header .nav__item a {
+  background-color: white;
+  border: 5px solid white;
+  color: rgba(149, 102, 207, 0.9019607843);
+  text-decoration: none;
+  padding: 1rem;
 }/*# sourceMappingURL=estilo.css.map */
