@@ -1,0 +1,17 @@
+header {
+    background-color: #9566cfe6;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1400px;
+    margin: auto;
+
+    .logo {
+        // display: flex;
+        // flex-direction: row;
+        // justify-content: flex-start;
+        width: 100px;
+       
+    }
+}

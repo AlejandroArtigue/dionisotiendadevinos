@@ -1,12 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
 
 }
-header {
+*::selection {
+    background-color: #9566cfe6;
+    color: white;
+} */
+/* header {
     background-color: #9566cfe6;
     display: flex;
     flex-direction: row;
@@ -14,14 +18,14 @@ header {
     align-items: center;
     max-width: 1400px;
     margin: auto;
-}
-.logo {
+} */
+/* .logo {
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     width: 100px;
    
-}
+} */
 
 .menu {  
     display: flex;
@@ -111,11 +115,22 @@ body  {
     align-items: center;
     list-style: none;
     background-color: #9566cfe6;
-    padding-inline: 70px;
-    padding-block: 20px;
+    padding-inline: 100px;
+    padding-block: 20px; 
    
 }
 
+.footerinicio {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    background-color: #9566cfe6;
+    padding-inline: 1000px;
+    padding-block: 10px; 
+}
 
 .telefono { 
     min-width: 48px;
@@ -298,15 +313,15 @@ body  {
  }
     
 
- .logo {
+  /* .logo {
     animation: imagenlogo 2s;
     animation-name: imagenlogo;
     animation-duration: 2s;
     animation-direction: alternate-reverse;
- }
-@keyframes imagenlogo {
+ } 
+ @keyframes imagenlogo {
     100% {
         width: 15%;
     }
-}
+}  */
 

@@ -4,29 +4,62 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dioniso</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
 <link rel="stylesheet" href="styles/styles.css"/>
 </head>
 
 <body>
     <header>
-        <img class="logo" src="./asset/DIONISO LOGO.png" alt="logo">
+        <!-- <img class="logo" src="./asset/DIONISO LOGO.png" alt="logo"> -->
 
-    <nav class="menu">
-        <ul class="columna">
-            <li class="inicio"><a href="./index.html">inicio</a>  </li>
-            <li class="importados"><a href="./pages/vinos-importados.html">Vinos importados</a>  </li>
-            <li class="nacionales"><a href="./pages/vinos-nacionales.html">Vinos nacionales</a>  </li>
-            <li class="nosotros"><a href="./pages/nosotros.html">Nosotros</a>  </li>
-            <li class="contacto"><a href="./pages/contacto.html">Contacto</a>  </li>
-        </ul>
-    </nav>
+        <nav class="navbar navbar-expand-lg bg-primary navbar-dark">
+            <!-- <img class="logo navbar-brand" src="./asset/DIONISO LOGO.png" alt="logo"> -->
+            <div class="container-fluid">
+               <a class="navbar-brand" href="#">Dioniso</a> 
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/vinos-importados.html">Vinos importados</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/vinos-nacionales.html">Vinos nacionales</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./pages/contacto.html">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </nav>
+
+    
     
 
 </header>
 <main class="mainindex">
-    <section>
+    <section class="hero d-flex justify-content-center align-items-center">
+        <div class="col-md-8 d-flex flex-column justify-content-center"> 
+        <h2 class="text-black"> DIONISO TIENDA DE VINOS</h2>
+           <p>Inspirados en las próximas generaciones que nos sucederán en el tiempo, concebimos este vino. Es el icono de la familia y expresa en la forma más pura y noble nuestra idea de llevar a Dioniso a todo lo alto. </p> 
+           <p>El vino se produjo por primera vez durante el Neolítico, según los testimonios arqueológicos hallados en los montes Zagros, en la región que hoy ocupan Irak e Irán, gracias a la presencia de Vitis vinifera sylvestris y la aparición de la cerámica durante este periodo. La evidencia más antigua de la producción y consumo de vino es una vasija del año 5400 a. C., hallada en el poblado neolítico de Hajji Firuz Tepe, en los montes Zagros. La vasija contiene un residuo rojizo, presumiblemente vino.​ Aunque recientemente se ha encontrado la bodega más antigua conocida, datada en el año 8000 a. C., se sitúa en Georgia la producción más antigua de vino.​Posteriormente, el consumo de vino se extendió hacia el occidente, llegando a Anatolia y Grecia; y hacia el sur, llegando hasta Egipto, ya célebre en Bahariya durante el Imperio Medio (siglo XX a. C.). La más antigua documentación griega sobre el cuidado de la vid, la cosecha y el prensado de las uvas, es Los trabajos y los días, de Hesíodo, del siglo VIII a. C.10​ En la antigua Grecia el vino se bebía mezclado con agua y se conservaba en pellejos de cabra.</p>
+        </div>
+        <div class="col-md-4 d-flex align-items-center">
+            <img class="mw-100 rounded" src="./asset/foto presentacion.jpg" alt="tienda de vinos">
+        </div>
+            
+    </section>
+    <!-- <section>
          <h4 class="lonuestro">NUESTROS VINOS</h4> 
-        <p class="vinosdioniso">Inspirados en las próximas generaciones que nos sucederán en el tiempo, concebimos este vino. Es el icono de la familia y expresa en la forma más pura y noble nuestra idea de llevar a Dioniso a todo lo alto.
+        <p class="vinosdioniso">Inspirados en las próximas generaciones que nos sucederán en el tiempo, concebimos este vino. Es el icono de la familia y expresa en la forma más pura y noble nuestra idea de llevar a Dioniso a todo lo alto. Desde nuestro lugar hacia el mundo!
        </p>  
     </section>
 
@@ -40,10 +73,10 @@
 
     <p class="historia">El vino se produjo por primera vez durante el Neolítico, según los testimonios arqueológicos hallados en los montes Zagros, en la región que hoy ocupan Irak e Irán, gracias a la presencia de Vitis vinifera sylvestris y la aparición de la cerámica durante este periodo. La evidencia más antigua de la producción y consumo de vino es una vasija del año 5400 a. C., hallada en el poblado neolítico de Hajji Firuz Tepe, en los montes Zagros. La vasija contiene un residuo rojizo, presumiblemente vino.​ Aunque recientemente se ha encontrado la bodega más antigua conocida, datada en el año 8000 a. C., se sitúa en Georgia la producción más antigua de vino.​Posteriormente, el consumo de vino se extendió hacia el occidente, llegando a Anatolia y Grecia; y hacia el sur, llegando hasta Egipto, ya célebre en Bahariya durante el Imperio Medio (siglo XX a. C.). La más antigua documentación griega sobre el cuidado de la vid, la cosecha y el prensado de las uvas, es Los trabajos y los días, de Hesíodo, del siglo VIII a. C.10​ En la antigua Grecia el vino se bebía mezclado con agua y se conservaba en pellejos de cabra.</p>
     </div>
-</main>
+</main> -->
 <img class="wpp" src="./whatsapp.svg" alt="whatsapp">
 
-<footer>
+<footer class="footerinicio">
     <div>
 
      <ul class="newsletter">
@@ -55,5 +88,6 @@
     </div>
 </footer>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
 </body>
 </html>

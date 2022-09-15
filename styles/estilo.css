@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+*::-moz-selection {
+  background-color: rgba(149, 102, 207, 0.9019607843);
+  color: rgba(149, 102, 207, 0.9019607843);
+}
+*::selection {
+  background-color: rgba(149, 102, 207, 0.9019607843);
+  color: rgba(149, 102, 207, 0.9019607843);
+}
+
+header {
+  background-color: rgba(149, 102, 207, 0.9019607843);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  margin: auto;
+}
+header .logo {
+  width: 100px;
+}/*# sourceMappingURL=estilo.css.map */
