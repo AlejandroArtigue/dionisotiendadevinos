@@ -1,31 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Nunito', sans-serif;
 
-}
-*::selection {
-    background-color: #9566cfe6;
-    color: white;
-} */
-/* header {
-    background-color: #9566cfe6;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1400px;
-    margin: auto;
-} */
-/* .logo {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    width: 100px;
-   
-} */
 
 .navbar {
     background-color: #9566cf;
@@ -218,50 +192,7 @@ body  {
 }
 
 
-/* Cartas de imagenes de vinos importados y nacionales
 
-.tarjetita {
-    background-color: #9566cf;
-    border-radius: 20px;
-    overflow: hidden;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    gap: 20px;
-    flex: 1;
-    
-   
-
-}
-.tarjetitas {
-    margin-top: 40px;
-    padding: 10 20px;
-    
-}
-.tarjetitascontenedor {
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 50px;
-    max-width: 1200px;
-    margin: auto;
-    padding: 20px;
-}
-.tarjetita__imagen {
-    max-width: 100%;
-}
-.informacion {
-    padding: 0px 20px 20px 20px;
-}
-.botellas__boton {
-    display: flex;
-    justify-content: center;
-    background-color: #959494;
-   border: none;
-   padding: 15px;
-   border-radius: 10px;
-   translate: center;
-
-} */
 
 
 /* Nosotros */
@@ -276,17 +207,7 @@ body  {
     
 
 } 
-/* .tarjetitanosotros {
-    background-color: #beb5c8;
-    border-radius: 10px;
-    overflow: hidden;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    gap: 20px;
-    flex: 1.5;
 
-} */
    
 
 
