@@ -78,7 +78,7 @@ body  {
 }
 
 /* FOOTER */
-.newsletter{
+ .newsletter{
     color: white;
     display: flex;
     flex-direction: column;
@@ -118,7 +118,7 @@ body  {
 .ubicacion {
     min-width: 48px;
     padding: 0;
-}
+} 
 
 
 /* VENTANAS DE HTML  */
@@ -223,25 +223,31 @@ body  {
 
 /* Transformaciones y animaciones */
 
-
-
- .cold-md-4:hover {
-    transition: all 1s;
-    width: 100%;
-    color: rgb(255, 255, 255);
-    transform: scale(1.1)translateY(-60px);
- }
-
-
-   .logo {
-    animation: imagenlogo 2s;
-    animation-name: imagenlogo;
-    animation-duration: 2s;
-    animation-direction: alternate-reverse;
- }
- @keyframes imagenlogo {
-    100% {
-        width: 15%;
-    }
+.presentacion{
+    -webkit-animation:rotate-scale-up .65s linear both;
+    animation:rotate-scale-up .65s linear both;
+    
 }
 
+.losvinos {
+    -webkit-animation:roll-in-left .6s ease-out both;
+        animation:roll-in-left .6s ease-out both;
+
+
+ }
+ .imgproducto {
+    -webkit-animation:scale-in-hor-center .5s cubic-bezier(.25,.46,.45,.94) both;
+    animation:scale-in-hor-center .5s cubic-bezier(.25,.46,.45,.94) both;
+ }
+.soloimportados {
+   -webkit-animation:tracking-in-contract .8s cubic-bezier(.215,.61,.355,1.000) both;
+   animation:tracking-in-contract .8s cubic-bezier(.215,.61,.355,1.000) both;
+}
+@-webkit-keyframes rotate-scale-up{0%{-webkit-transform:scale(1) rotateZ(0);transform:scale(1) rotateZ(0)}50%{-webkit-transform:scale(2) rotateZ(180deg);transform:scale(2) rotateZ(180deg)}100%{-webkit-transform:scale(1) rotateZ(360deg);transform:scale(1) rotateZ(360deg)}}
+@keyframes rotate-scale-up{0%{-webkit-transform:scale(1) rotateZ(0);transform:scale(1) rotateZ(0)}50%{-webkit-transform:scale(2) rotateZ(180deg);transform:scale(2) rotateZ(180deg)}100%{-webkit-transform:scale(1) rotateZ(360deg);transform:scale(1) rotateZ(360deg)}}
+
+@-webkit-keyframes roll-in-left{0%{-webkit-transform:translateX(-800px) rotate(-540deg);transform:translateX(-800px) rotate(-540deg);opacity:0}100%{-webkit-transform:translateX(0) rotate(0deg);transform:translateX(0) rotate(0deg);opacity:1}}@keyframes roll-in-left{0%{-webkit-transform:translateX(-800px) rotate(-540deg);transform:translateX(-800px) rotate(-540deg);opacity:0}100%{-webkit-transform:translateX(0) rotate(0deg);transform:translateX(0) rotate(0deg);opacity:1}}
+
+@-webkit-keyframes scale-in-hor-center{0%{-webkit-transform:scaleX(0);transform:scaleX(0);opacity:1}100%{-webkit-transform:scaleX(1);transform:scaleX(1);opacity:1}}@keyframes scale-in-hor-center{0%{-webkit-transform:scaleX(0);transform:scaleX(0);opacity:1}100%{-webkit-transform:scaleX(1);transform:scaleX(1);opacity:1}}
+
+@-webkit-keyframes tracking-in-contract{0%{letter-spacing:1em;opacity:0}40%{opacity:.6}100%{letter-spacing:normal;opacity:1}}@keyframes tracking-in-contract{0%{letter-spacing:1em;opacity:0}40%{opacity:.6}100%{letter-spacing:normal;opacity:1}}

@@ -3,3 +3,10 @@
 $fontsnunito: 'Nunito', sans-serif;
 
 $maincolor: #9566cfe6;
+
+%iconitos {
+    width:100px;    
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+}

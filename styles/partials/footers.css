@@ -1,0 +1,60 @@
+.newsletter {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  background-color: rgba(149, 102, 207, 0.9019607843);
+  padding: 40px;
+  padding-bottom: 0;
+}
+
+.footerinicio {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  background-color: rgba(149, 102, 207, 0.9019607843);
+  padding-inline: 1000px;
+  padding-block: 10px;
+}
+
+.telefono {
+  min-width: 48px;
+  padding: 0;
+}
+
+.email {
+  font-weight: 900;
+  min-width: 48px;
+  padding: 0;
+}
+
+.ubicacion {
+  min-width: 48px;
+  padding: 0;
+}
+
+.iconos {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.iconos .fab {
+  padding: 1rem;
+}
+
+.fa-facebook {
+  background-color: blue;
+}
+
+.fa-instagram {
+  background-color: #b51377;
+}
+
+.fa-whatsapp {
+  background-color: green;
+}/*# sourceMappingURL=footers.css.map */

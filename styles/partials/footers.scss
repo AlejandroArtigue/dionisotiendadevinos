@@ -1,0 +1,81 @@
+.newsletter{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    background-color: #9566cfe6;
+
+    padding: 40px;
+    padding-bottom: 0;
+
+}
+
+.footerinicio {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    background-color: #9566cfe6;
+
+    padding-inline: 1000px;
+    padding-block: 10px;
+}
+
+.telefono {
+    min-width: 48px;
+    padding: 0;
+}
+.email {
+    font-weight: 900;
+   min-width: 48px;
+     padding: 0;
+
+}
+.ubicacion {
+    min-width: 48px;
+    padding: 0;
+}
+
+.iconos {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    .fab {
+        padding: 1rem;
+    }
+
+}
+$redes: (
+    facebook: blue,
+    instagram: #b51377,
+    whatsapp: green,
+    
+);
+
+@each $redsocial, $color  in $redes {
+    .fa-#{$redsocial} { 
+        background-color: $colordered;
+    }
+    
+}
+.fa-facebook {
+width:100px;    
+border-radius: 5px;
+display: flex;
+justify-content: center;
+
+&:hover{
+    background-color: red;
+}
+}
+.fa-instagram {
+    @extend %iconitos;
+}
+.fa-whatsapp {
+    @extend %iconitos;
+}
